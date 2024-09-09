@@ -1,0 +1,26 @@
+---
+---
+
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro + Alpine.js</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+    {Astro.head}
+</head>
+<body>
+<header class="bg-gray-800 p-4 text-white">
+    <h1 class="text-center text-2xl font-bold">Astro + Bun.js + Tailwind + Alpine.js</h1>
+</header>
+
+<main class="container mx-auto p-8">
+    <!-- Hier wird der Seiteninhalt eingefügt -->
+    <slot />
+</main>
+
+<footer class="bg-gray-800 p-4 text-center text-white">
+    <p>© 2024 Astro Project</p>
+</footer>
+</body>
+</html>
