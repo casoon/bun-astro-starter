@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import config from './src/config'
 
 export default defineConfig({
+    site: config.siteUrl,
     integrations: [tailwind(), alpine(), sitemap({
         filter: (page) =>
             page !== config.siteUrl + '/test/' &&
