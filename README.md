@@ -19,8 +19,8 @@ You can easily create your own project based on this template by clicking the **
 2. Choose a repository name for your project.
 3. Clone your new repository to your local machine:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-   cd YOUR_REPOSITORY_NAME
+   git clone https://github.com/casoon/bun-astro-starter.git
+   cd bun-astro-starter
    ```
 
 4. Install dependencies:
@@ -30,7 +30,7 @@ You can easily create your own project based on this template by clicking the **
 
 5. Start the development server:
    ```bash
-   bun astro dev
+   bun dev
    ```
 
 ### Prerequisites
@@ -42,7 +42,7 @@ Make sure you have **Bun** installed on your system. If not, you can install it 
 To build the site for production, run:
 
 ```bash
-bun astro build
+bun run build
 ```
 
 The output will be placed in the `dist` folder, which can be deployed to any static hosting provider.
@@ -81,30 +81,12 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## MIT License
 
-```
-MIT License
-
-Copyright (c) 2024 Casoon
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
 Feel free to open issues or submit
+
+## Author
+
+Created by **Casoon**.
